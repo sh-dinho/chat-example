@@ -3,17 +3,40 @@
 <head>
     <title>Socket.IO chat</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+
 <body>
-    <ul id="messages"></ul>
+    <div class="jumbotron text-center">
+        <div class="container-fluid">
+            <h2>Welcome to the Chat!</h2>
+        </div>
+    </div>
+
+    <div class="coninter">
+        <div class="row">
+            <div class="col-md-8">
+                <ul id="messages"></ul>
+            </div>
+
+            <div class="col-md-4">
+                <h3>ONLINE USERS</h3>
+                <ul id="users"></ul>
+            </div>
+        </div>
+    </div>
+
     <form action="">
         <input id="m" autocomplete="off" /><button>Send</button>
     </form>
-    <script
-            src="https://code.jquery.com/jquery-3.1.1.min.js"
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="/client.js"></script>
+
 </body>
 </html>
