@@ -9,4 +9,8 @@
   "scripts": {
     "start": "node index.js"
   }
+  
+  "dependencies": {
+  "socket.io-parser": ">=3.3.2"
+  }
 }
