@@ -13,5 +13,6 @@
   "dependencies": {
   "socket.io-parser": ">=3.3.2"
   "xmlhttprequest-ssl": ">=1.6.2"
+  "engine.io": ">=3.6.0"
   }
 }
