@@ -4,7 +4,7 @@
   "description": "my first socket.io app",
   "dependencies": {
     "express": "^4.14.1",
-    "socket.io": ">=3.3.6",
+    "socket.io": ">=2.4.0",
     "xmlhttprequest-ssl": ">=1.6.2",
     "engine.io": ">=3.6.0",
     "debug": ">=2.6.9"
