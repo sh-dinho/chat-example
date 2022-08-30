@@ -17,6 +17,7 @@ io.on('connection', function(socket){
     });
 });
 
+
 var message = [];
 var userCount = 0;
 var newUser;
@@ -24,5 +25,3 @@ var user;
     io.on('connection', function (socket) {
         newUser = false;
     });
-
-    
